@@ -1,0 +1,33 @@
+package StringPrograms;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class OccOfVowels {
+
+	public static void main(String[] args) {
+		String str="This is my possession and i know you can have at";
+		
+		str= str.toLowerCase();
+		
+		Map<Character,Integer> vcount= new HashMap<>();
+		
+		char vowels[]= {'a','e','i','o','u'};
+		
+		for(char v: vowels )
+		{
+			vcount.put(v, 0);
+		}
+		
+		for(char chars: str.toCharArray())
+		{
+			if(vcount.containsKey(chars))
+			{
+				vcount.put(chars, vcount.get(chars)+1);
+			}
+		}
+		
+		System.out.println(vcount);
+	}
+
+}

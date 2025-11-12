@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ArrayPrograms.SortingArray&apos; to &apos;SortingArrayAndRemovingDuplicates&apos;&#x0D;&#x0A;- Original project: &apos;MyProject&apos;&#x0D;&#x0A;- Original element: &apos;ArrayPrograms.SortingArray&apos;&#x0D;&#x0A;- Renamed element: &apos;ArrayPrograms.SortingArrayAndRemovingDuplicates&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SortingArray&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ArrayPrograms{SortingArray.java[SortingArray" matchStrategy="1" name="SortingArrayAndRemovingDuplicates" qualified="false" references="true" similarDeclarations="false" stamp="1749458314998" textual="false" version="1.0"/>
+</session>

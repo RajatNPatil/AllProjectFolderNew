@@ -1,0 +1,38 @@
+package ArrayPrograms;
+import java.util.HashMap;
+import java.util.Map;
+
+public class duplicateDigitCounter {
+	
+	    public static void main(String[] args) {
+	        int num = 12312345;
+	       // String numStr = Integer.toString(num);
+	        String numStr= String.valueOf(num);
+	        Map<Character, Integer> digitCounts = new HashMap<>();
+
+	        for (char digit : numStr.toCharArray()) 
+	        	{
+	            digitCounts.put(digit, digitCounts.get(digit) + 1);
+	        }
+
+	        boolean hasDuplicates = false;
+	        for (Map.Entry<Character, Integer> entry : digitCounts.entrySet()) 
+	        {
+	            if (entry.getValue() > 1) 
+	            {
+	                hasDuplicates = true;
+	            }
+	            System.out.println("Digit: " + entry.getKey() + "= Count: " + entry.getValue());
+	        }
+
+	        if (!hasDuplicates) {
+	            System.out.println("No duplicate digits found.");
+	        }
+	        else
+	        {
+	        	System.out.println("Duplicate digits found.");
+	        }
+	    }
+	}
+
+

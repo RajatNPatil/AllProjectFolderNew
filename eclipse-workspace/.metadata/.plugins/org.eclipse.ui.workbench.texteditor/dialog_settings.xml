@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="java.lang.Class">
+		<item key="selection" value="pageLoadTimeout(Duration.ofSeconds(40))"/>
+		<list key="findhistory">
+			<item value="pageLoadTimeout(Duration.ofSeconds(40))"/>
+			<item value=""/>
+		</list>
+	</section>
+</section>
